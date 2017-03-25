@@ -12,7 +12,7 @@ function ubc_ckeditor_accessibility_ckeditor_plugin() {
       'desc' => t('Balloonpanel: Plugin required for the accessibility checker plugin.'),
       'path' => drupal_get_path('module', 'ubc_ckeditor_accessibility') . '/plugins/balloonpanel/',
     ),
-		'a11ychecker' => array(
+    'a11ychecker' => array(
       'name' => 'a11ychecker',
       'desc' => t('A11ychecker: Plugin to check content for accessibility again WCAG guidelines.'),
       'path' => drupal_get_path('module', 'ubc_ckeditor_accessibility') . '/plugins/a11ychecker/',
