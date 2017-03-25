@@ -1,0 +1,5 @@
+name = UBC CKEditor Accessibility Checker Widget
+description = A ckeditor wysiwyg plugin that allows the user to check content accessibility against WCAG guidelines using the <a href="http://ckeditor.com/addon/a11ychecker" target="_blank">ckeditor a11ychecker plugin</a>.
+package = UBC IT Web Services
+core = 7.x
+dependencies[] = ckeditor

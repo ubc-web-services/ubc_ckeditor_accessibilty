@@ -1,0 +1,27 @@
+<?php
+/**
+ * Created by jotoole, 2017-03-20.
+ */
+/**
+ * Implements hook_ckeditor_plugin().
+ */
+function ubc_ckeditor_accessibility_ckeditor_plugin() {
+  return array(
+    'balloonpanel' => array(
+      'name' => 'balloonpanel',
+      'desc' => t('Balloonpanel: Plugin required for the accessibility checker plugin.'),
+      'path' => drupal_get_path('module', 'ubc_ckeditor_accessibility') . '/plugins/balloonpanel/',
+    ),
+		'a11ychecker' => array(
+      'name' => 'a11ychecker',
+      'desc' => t('A11ychecker: Plugin to check content for accessibility again WCAG guidelines.'),
+      'path' => drupal_get_path('module', 'ubc_ckeditor_accessibility') . '/plugins/a11ychecker/',
+      'buttons' => array(
+        'A11ychecker' => array(
+          'label' => 'Accessibility checker.',
+          'icon' => 'icons/a11ychecker.png',
+        ),
+      ),
+    ),
+  );
+}
